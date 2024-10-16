@@ -216,7 +216,6 @@ class NonSessionTapper {
             mine_data?.message?.toLowerCase() == "success"
           ) {
             const current_mine = mine_data?.data[0];
-            console.log(current_mine);
 
             if (moment(current_mine?.timeEnd).isBefore(moment())) {
               logger.info(
@@ -227,7 +226,6 @@ class NonSessionTapper {
                 userId: userId,
                 taskId: current_mine?._id,
               });
-              console.log(claim_mine);
 
               if (
                 !_.isEmpty(claim_mine?.data) &&
