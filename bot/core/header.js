@@ -11,7 +11,7 @@ const headers = {
   "user-agent":
     "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",
   "sec-fetch-dest": "empty",
-  " X-Requested-With": "org.telegram.messenger.web",
+  "X-Requested-With": "org.telegram.messenger.web",
   "Sec-Ch-Ua-Mobile": "?1",
   "Sec-Ch-Ua": `"Android WebView";v="129", "Not=A?Brand";v="8", "Chromium";v="129"`,
   "Sec-Ch-Ua-Platform": "Android",
